@@ -7,7 +7,7 @@ import aiohttp
 from pathlib import Path
 
 
-NICKNAME_BASE = "THUG4FF"
+NICKNAME_BASE = "Inazuma"
 ACCOUNTS_FILE = Path("guest-accounts.json")
 API_URL = "http://changenamedat.onrender.com/change"
 MAX_CONCURRENT = 10  
@@ -71,3 +71,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
