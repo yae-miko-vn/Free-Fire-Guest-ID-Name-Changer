@@ -15,7 +15,7 @@ TIMEOUT_SECONDS = 15
 
 # ---------------- FUNCTIONS ----------------
 def generate_name(base_name=NICKNAME_BASE, total_length=12):
-    """Génère un pseudo aléatoire avec un suffixe."""
+    """Generates a random nickname with a suffix"""
     max_base_length = total_length - 2
     base_part = base_name[:max_base_length]
     random_part = ''.join(random.choices(
@@ -71,5 +71,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
